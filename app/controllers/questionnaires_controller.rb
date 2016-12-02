@@ -193,6 +193,7 @@ class QuestionnairesController < ApplicationController
     redirect_to controller: 'tree_display', action: 'list'
   end
 
+
   # Zhewei: This method is used to add new questions when editing questionnaire.
   def add_new_questions
     questionnaire_id = params[:id] unless params[:id].nil?
